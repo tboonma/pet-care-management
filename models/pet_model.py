@@ -9,9 +9,9 @@ class PetModel(Base):
 
     id = Column(Integer, primary_key=True, nullable=False)
     name = Column(Text, nullable=False)
-    pet_type = Column(Text, nullable=False)
+    type = Column(Text, nullable=False)
     gender = Column(Text, nullable=False)
-    birth_year = Column(Text, nullable=False)
+    birthyear = Column(Text, nullable=False)
     owner_id = Column(Text)
 
     def __repr__(self) -> str:
