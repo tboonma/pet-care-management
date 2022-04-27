@@ -4,7 +4,7 @@ from sqlalchemy.orm import declarative_base
 Base = declarative_base()
 
 
-class PetModel(Base):
+class CustomerModel(Base):
     __tablename__ = "customers"
 
     id = Column(Integer, primary_key=True, nullable=False)
