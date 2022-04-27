@@ -130,3 +130,6 @@ dmypy.json
 
 # MacOS files
 .idea/
+
+# Database
+*.db
