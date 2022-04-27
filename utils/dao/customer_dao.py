@@ -13,12 +13,10 @@ class CustomerDao:
         return self.__session.query(CustomerModel).filter(CustomerModel.id == id)[0]
 
     def get_customer_by_firstname(self, firstname):
-        return self.__session.query(CustomerModel).filter(CustomerModel.firstname == firstname).all()
-
-    def get_customer_by_phone(self, phone):
-        return self.__session.query(CustomerModel).filter(CustomerModel.phone.replace('-', '') == phone).all()
+        return self.__session.query(CustomerModel).filter(CustomerModel.firstName == firstname).all()
 
     def add_new_customer(self, customer: CustomerModel):
         self.__session.add(customer)
         self.__session.commit()
-        print(f"Added customer:'{customer.first_name} {customer.last_name}' to the database")
+        print(
+            f"Added customer:'{customer.firstName} {customer.lastName}' to the database")
