@@ -19,7 +19,7 @@ class PetDao:
         return self.__session.query(PetModel).filter(PetModel.owner_id == id).all()
 
     def get_pet_by_type(self, type_name):
-        return self.__session.query(PetModel).filter(type_name in PetModel.type).all()
+        return self.__session.query(PetModel).filter(PetModel.type.contains(type_name)).all()
 
     def add_new_pet(self, pet: PetModel):
         self.__session.add(pet)
