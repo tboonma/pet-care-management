@@ -19,7 +19,7 @@ An example of the involved with this project.
 |Name  | Recommended version(s)|   
 |------|-----------------------|
 |Python | 3.9 or higher |
-|SQLite3 cmd | 3.33.0 or higher |
+|SQLite3 cli | 3.33.0 or higher |
 
 ### Install Packages
 1. Clone this project repository to your machine.
