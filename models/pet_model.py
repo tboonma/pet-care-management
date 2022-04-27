@@ -15,4 +15,4 @@ class PetModel(Base):
     owner_id = Column(Text)
 
     def __repr__(self) -> str:
-        return f"<Pet: (id={self.id},name={self.name},type={self.pet_type},gender={self.gender},birth_year={self.birth_year},owner_id={self.owner_id})"
+        return f"<Pet: (id={self.id},name={self.name},type={self.type},gender={self.gender},birth_year={self.birthyear},owner_id={self.owner_id})>"

@@ -16,4 +16,4 @@ class CustomerModel(Base):
     phoneNumber = Column(Text, nullable=False)
 
     def __repr__(self) -> str:
-        return f"<Customer: (id={self.id},first_name={self.firstName},last_name={self.lastName},gender={self.gender},address={self.address},email={self.email},phone={self.phoneNumber})"
+        return f"<Customer: (id={self.id},first_name={self.firstName},last_name={self.lastName},gender={self.gender},address={self.address},email={self.email},phone={self.phoneNumber})>"
