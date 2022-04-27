@@ -64,4 +64,5 @@ An example of the involved with this project.
     sqlite> .mode csv
     sqlite> .import data/CustomerData.csv customers
     sqlite> .import data/PetData.csv pets
+    sqlite> .quit
     ```
