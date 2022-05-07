@@ -15,7 +15,10 @@ An example of the involved with this project.
 | 1 | FooFee | Scottish Fold cat | Female | 2020 | 1 |
 
 ## Project Documents
-- [UML Diagram](../../wiki/UML%20Diagram)
+- [UML Class Diagram](../../wiki/UML%20Class%20Diagram)
+- [Domain Model](../../wiki/Domain%20Model)
+- [Package Diagram](../../wiki/Package%20Diagram)
+- [Web Services](../../wiki/Web%20Services)
 
 ## Getting Started
 ### Requirements
